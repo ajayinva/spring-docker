@@ -11,6 +11,6 @@ public class SecondDockerController {
      */
     @RequestMapping("/sayHi")
     public String sayHi(){
-        return "Hi World from Second Docker Controller";
+        return "Hi World from Second Docker Controller in Remote Branch 2";
     }
 }
