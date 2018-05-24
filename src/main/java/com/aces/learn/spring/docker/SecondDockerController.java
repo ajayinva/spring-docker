@@ -11,6 +11,7 @@ public class SecondDockerController {
      */
     @RequestMapping("/sayHi")
     public String sayHi(){
+        //This is a comment to simulate a conflict
         return "Hi World from Second Docker Controller";
     }
 }
