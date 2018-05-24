@@ -18,6 +18,6 @@ public class DockerController {
 	 */
 	@RequestMapping("/sayHello")
 	public String sayHello(){
-		return "Hello World from Docker1";
+		return "Hello World from Docker";
 	}
 }
