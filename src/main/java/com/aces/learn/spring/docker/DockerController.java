@@ -17,12 +17,7 @@ public class DockerController {
 	 * @return
 	 */
 	@RequestMapping("/sayHello")
-	public String sayHello(){
-		//A Test Comment
-		// Comment 1
-		// Comment 2
-		// Comment 3
-		//A Comment locally
+	public String sayHello(){		
 		return "Hello World from Docker Edited2";
 	}
 }
