@@ -18,6 +18,6 @@ public class DockerController {
 	 */
 	@RequestMapping("/sayHello")
 	public String sayHello(){		
-		return "Hello World from Docker Edited2";
+		return "I am a change in the Master Branch";
 	}
 }
