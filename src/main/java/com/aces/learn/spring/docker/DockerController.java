@@ -17,7 +17,7 @@ public class DockerController {
 	 * @return
 	 */
 	@RequestMapping("/sayHello")
-	public String sayHello(){		
-		return "Hello World from Docker Edited2";
+	public String sayHello(){
+		return "I am a change a change in the Remote Branch 1";
 	}
 }
