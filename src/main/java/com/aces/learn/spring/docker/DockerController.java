@@ -18,7 +18,6 @@ public class DockerController {
 	 */
 	@RequestMapping("/sayHello")
 	public String sayHello(){
-		//Some Changes in the Develop Branch which are not in the Feature Branch
 		return "I am a change in the Master Branch";
 	}
 }
