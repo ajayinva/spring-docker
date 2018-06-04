@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-public class DockerController {
+public class NewControllerInFeatureBranch {
 	/**
 	 * 
 	 * @return
 	 */
-	@RequestMapping("/sayHello")
+	@RequestMapping("/sayHelloInFeatureBranch")
 	public String sayHello(){
-		//Some Changes in the Feature Branch
+		//Some Changes in the Feature Branch 
 		return "I am a change in the Master Branch";
 	}
 }
